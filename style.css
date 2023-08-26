@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Delicious+Handrawn&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: DM sans;
+}
+
+/* this is for spotify logo */
+#logo-img {
+    width: 160px;
+    height: 45px;
+    margin:20px;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    background-color: black;
+}
+.mainarea {
+    flex: 0.82;
+    padding: 0.9em;
+    background-color: rgb(21, 21, 21);
+    height: 100%;
+    
+}
+
+.sidebar {
+    flex: 0.18;
+    position: relative;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap:0.1rem;
+    height: 100%;
+
+
+}
+#install-btn{
+    background-color: transparent;
+    border: none !important;
+    font-size: 15px;
+}
+#install-btn:hover{
+    cursor: pointer;
+}
+
+
+.topicons {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+}
+
+.sidedivs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    margin-bottom: 16px;
+    padding-inline: 1.5rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    
+}
+.sidedivs>a{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(211, 204, 204);
+}
+.sidedivs>a:hover{
+    color: white;
+}
+.linkflex {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    font-weight: 600;
+    font-size: 0.8rem;
+    cursor: pointer;
+    height: 1.375rem;
+     
+}
+.linkflex>img{
+    height: 1.375rem;
+    width: 1.375rem;
+}
+.linkflex>a{
+    text-decoration: none;
+    color: rgb(211, 204, 204);
+}
+.linkflex>a:hover{
+    color: white;
+}
+.linkflex:hover {
+    opacity: 1;
+    transition: all 0.3s;
+    background-color: rgb(40,40,40);
+}
+
+.albumicons {
+    width: 1rem;
+    height: 1rem;
+    background-color: white !important;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.0625rem;
+}
+
+#gradient {
+    background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+}
+
+#color {
+    border-radius: 0.3125rem;
+    background: #004638;
+}
+
+.head {
+    display: flex;
+    margin-bottom: 1.8rem;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(21, 21, 21); */
+}
+
+.greatless {
+    display: flex;
+    gap: 10px;
+    /* background-color: rgb(21, 21, 21); */
+}
+
+.great,
+.less {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    background-color: black !important;
+    text-align: center;
+    
+
+}
+
+.less {
+    color: white;
+    cursor: pointer;
+}
+
+.great {
+    color: grey;
+    cursor: pointer;
+}
+
+.user {
+    display: flex;
+    border-radius: 20px 20px 20px 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black !important;
+    width: 10vw;
+
+}
+
+.user>img {
+    width: 2.3125rem;
+    height: 2.3125rem;
+    border-radius: 2.3125rem;
+    
+
+}
+
+.name {
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+
+.maincontent {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.mainleft {
+    flex: 1;
+    overflow-y: scroll;
+    height: 72vh;
+}
+.mainleft::-webkit-scrollbar {
+    display: none;
+    
+  }
+
+
+  .bg-ldark {
+    background-color: rgb(21, 21, 21) !important;
+}
+
+.bg-black {
+    background-color: black !important;
+}
+.midcards{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    height: 28%;
+    margin: 14px 0px;
+}
+.midcards::-webkit-scrollbar{
+    display: none;
+}
+
+.mcard {
+    display: flex;
+    width: 14.625rem;
+    height: 3.25rem;
+    background-color: rgb(32, 32, 32);
+    align-items: center;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin: 0px 10px 9px 0px;
+    
+}
+
+.mtext {
+    margin-left: 15px;
+}
+.simg{
+    height: 100%;
+}
+.see{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.see>a{
+    color: rgb(181, 176, 176);
+    text-decoration: none;
+    margin-right: 20px;
+}
+.see>a:hover{
+    color: white !important;
+}
+
+.sub-all{
+    display:flex ;
+    color: rgb(181, 176, 176);
+}
+.btmcards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bcard{
+    padding: 9px;
+    display: flex;
+    flex-direction: columns;
+    justify-content: space-around;
+    background-color: rgb(31, 29, 29);
+    margin: 0px 15px 15px 0px;
+    border-radius: 0.700rem;
+}
+.bcard>.carditem>h5{
+    margin-top: 0.8rem;
+}
+.bcard:hover{
+    background-color: #333131;
+    border-radius: 0.60rem;
+}
+
+.mcard:hover{
+    background-color: #333131;
+}
+
+.carditem>img{
+    border-radius: 0.865rem;
+    width: 8.98613rem;
+    height: 8.9955rem;
+
+}
+.carditem>p{
+    color: #B3B3B3;
+    font-family: DM Sans;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 0.00938rem;
+}
+.carditem>h5{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: -0.02625rem;
+}
+
+/* Footer styles */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 7.99rem;
+    background-color: rgb(24, 24, 24);
+}
+
+.player {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.player-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player-left > img {
+    margin-right: 2rem;
+    align-items: center;
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+}
+
+.played-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.heart{
+    margin: 30px;
+}
+.sub{
+    margin-top:10px !important ;
+    line-height: 0.8;
+}
+
+
+#singer {
+    color: #938d8d;
+    font-family: DM Sans;
+    letter-spacing: 2px;
+    margin: 0px;
+    line-height: 0.8;
+}
+
+
+.mid-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20rem;
+    padding: 10px;
+}
+.mid-down>p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: DM Sans;
+    letter-spacing: 3px;
+    margin: 10px;
+    line-height: 0.8;
+    font-weight: bold;
+}
+.player-mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid-down {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25rem;
+}
+
+.progress-bar {
+    background-color: #988c8c !important;
+    width: 100%;
+    height: 5px;
+    align-items: center;
+}
+
+.progress {
+    width: 5%;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+.mid-down > img {
+    height: 5px;
+    width: 22.125rem;
+}
+
+.player-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.player-right>i{
+    font-size:.9em;
+    margin-left: 19px;
+    margin-right: 10px;
+}
+
+
+.volume-bar {
+    background-color: #979797;
+    width: 4rem;
+    height: 5px;
+}
+
+.volume {
+    width: 60%;
+    height: 5px;
+    background-color: #ffffff;
+}
+
+
+
+/* ----------------------Playlist CSS---------------------- */
+
+/* Style the range input track */
+input[type="range"] {
+    
+    width: 100%; /* Full-width */
+    height: 8px; /* Height of the track */
+    background-color: #ddd; /* Default background color of the track */
+    border-radius: 4px; /* Rounded corners */
+    outline: none; /* Remove the outline on focus */
+  }
+  
+  /* Style the range input thumb (slider handle) */
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default styles on WebKit/Blink */
+    appearance: none; /* Remove default styles on other browsers */
+    width: 16px;
+    height: 16px; 
+    background-color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    cursor: pointer; /* Show a pointer cursor on hover */
+  }
+  
+  /* Style the range input thumb on hover */
+  input[type="range"]::-webkit-slider-thumb:hover {
+    background-color: #0056b3; /* Thumb background color on hover */
+  }
+  
+  /* Style the range input thumb on active */
+  input[type="range"]::-webkit-slider-thumb:active {
+    background-color: #003e80; /* Thumb background color when pressed */
+  }
+  
+/* Large screens */
+@media (min-width: 1400px){
+    .container{
+        width: 100%;
+        max-width: unset !important ;
+    }
+}
+/* Medium screens */
+@media (min-width: 768px) and (max-width: 1399px) {
+    #logo-img{
+        width: 7rem;
+        height: 2rem;
+    }
+    .foot-song-img{
+        height: 62px;
+    }
+    .sidedivs, .favalbums{
+        gap:0.3rem;
+    }
+    .container{
+        width: 100%;
+        max-width: unset !important ;
+    }
+}
+@media (min-width:216px) and (max-width:42px) {
+    .footer {
+        height: 100%;
+    }
+}
+/* Small screens */
+@media (min-width: 426px) and (max-width: 767px) {
+    .midup, .middown{
+        width: 12rem;
+    }
+    .rytmic:nth-child(1){
+        display: none;
+    }
+    .rytmic:nth-child(2){
+        display: none;
+    }
+    .rytmic:nth-child(3){
+        display: none;
+    }
+    .rytmic:nth-child(5){
+        display: none;
+    }
+    .rytmic:nth-child(6){
+        display: none;
+    }
+    .textonly{
+        display: none;
+    }
+    .sidedivs{
+        gap:0.1rem;
+    }
+    .sidebar{
+        gap:0rem;
+    }
+    
+}
+@media (max-width: 425px) {
+    .midup, .middown{
+        width: 12rem;
+    }
+    .rytmic:nth-child(1){
+        display: none;
+    }
+    .rytmic:nth-child(2){
+        display: none;
+    }
+    .rytmic:nth-child(3){
+        display: none;
+    }
+    .rytmic:nth-child(5){
+        display: none;
+    }
+    .rytmic:nth-child(6){
+        display: none;
+    }
+    .textonly{
+        display: none;
+    }
+    
+    .sidedivs{
+        gap:0.1rem;
+    }
+    .sidebar{
+        gap:0rem;
+    }
+    .h2, .see>a{
+        font-size: 14px;
+    }
+}
