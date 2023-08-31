@@ -226,6 +226,7 @@
     overflow: hidden;
     flex-wrap: wrap;
     margin: 0px 10px 9px 0px;
+    cursor: pointer;
     
 }
 
@@ -267,6 +268,7 @@
     background-color: rgb(31, 29, 29);
     margin: 0px 15px 15px 0px;
     border-radius: 0.700rem;
+    cursor: pointer;
 }
 .bcard>.carditem>h5{
     margin-top: 0.8rem;
@@ -361,6 +363,7 @@
     align-items: center;
     width: 20rem;
     padding: 10px;
+    cursor: pointer;
 }
 .mid-down>p{
     margin-left: 10px;
@@ -406,6 +409,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 .player-right>i{
     font-size:.9em;
