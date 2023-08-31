@@ -47,8 +47,11 @@ Media Queries
 To view and interact with the Spotify Clone, follow these steps:
 
 Clone this repository: git clone https://github.com/your-username/spotify-clone.git
+
 Navigate to the project directory: cd spotify-clone
+
 Open index.html in your preferred web browser.
+
 Explore the various components of the Spotify Clone and enjoy the music experience!
 # Acknowledgments
 This project was inspired by the Spotify web application.
