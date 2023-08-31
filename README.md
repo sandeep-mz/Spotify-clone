@@ -67,7 +67,10 @@ Explore the various components of the Spotify Clone and enjoy the music experien
 This project was inspired by the Spotify web application.
 UI design specifications were based on the Figma link provided.
 # Contact✔️🔴
+
 If you have any questions or need further information about the project, you can contact the project owner at - @initialsandeep09@gmail.com.
 
+
 GITHUB LINK https://github.com/sandeep-mz/Spotify-clone
+
 DEPLOYED LINK https://sandeep-mz.github.io/Spotify-clone/index.html
