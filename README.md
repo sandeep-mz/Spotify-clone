@@ -22,10 +22,21 @@ Navigation links: 'Home', 'Search', 'Your Library'
 Navigation links
 Album covers and titles for playlists
 'Get App' Call to Action (CTA)
+
 # Content Area
 Hero section with illustration, gradients, and text
 List of album covers
 List of artist illustrations
+
+# Home Page 
+![Screenshot (112)](https://github.com/sandeep-mz/Spotify-clone/assets/108665091/28c8a2d8-f57a-4686-9188-ec8889a61657)
+
+
+# Your Library
+![Screenshot (113)](https://github.com/sandeep-mz/Spotify-clone/assets/108665091/291298b5-3a68-4ec8-a964-535ec78f51fe)
+
+
+
 # Player
 Currently playing album art
 Track title and artist
