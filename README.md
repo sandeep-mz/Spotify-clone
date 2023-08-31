@@ -29,8 +29,7 @@ List of album covers
 List of artist illustrations
 
 # Home Page 
-![Screenshot (112)](https://github.com/sandeep-mz/Spotify-clone/assets/108665091/28c8a2d8-f57a-4686-9188-ec8889a61657)
-
+![Screenshot (112)](https://github.com/sandeep-mz/Spotify-clone/assets/108665091/a391e3be-fc56-486a-9d3f-09d424252f55)
 
 # Your Library
 ![Screenshot (113)](https://github.com/sandeep-mz/Spotify-clone/assets/108665091/291298b5-3a68-4ec8-a964-535ec78f51fe)
